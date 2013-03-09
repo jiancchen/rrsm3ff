@@ -9,9 +9,15 @@ describe "StaticPages" do
       page.should have_content('Hello')
     end
 
+    it "should have the base title" do
+      visit '/static_pages/home'
+      page.should have_selector('title',
+                        :text => "Rails Sample")
+    end
+
     it "shoud have the right title" do
     	visit '/static_pages/home'
-    	page.should have_selector('title', :text => " | Home")
+    	page.should_not have_selector('title', :text => " | Home")
     end
   end
 
