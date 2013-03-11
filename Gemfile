@@ -21,6 +21,7 @@ end
 gem 'jquery-rails', '2.0.2'
 #for issue in which guard can't start spork on cli? downgarde from 0.3.9
 gem 'childprocess', '0.3.6'
+gem 'bootstrap-sass', '2.1'
 
 # Test gems on Macintosh OS X
 group :test do
