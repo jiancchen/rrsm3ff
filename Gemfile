@@ -23,6 +23,8 @@ gem 'jquery-rails', '2.0.2'
 gem 'childprocess', '0.3.6'
 gem 'bootstrap-sass', '2.1'
 gem 'bcrypt-ruby', '3.0.1'
+gem 'faker', '1.0.1'
+gem 'bootstrap-will_paginate', '0.0.6'
 
 # Test gems on Macintosh OS X
 group :test do
